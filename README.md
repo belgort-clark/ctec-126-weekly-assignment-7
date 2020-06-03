@@ -55,12 +55,12 @@ You will need an API key in order to communicate with the API. Follow these step
 - When the user selects another news section, the page must reload the stories for that section. The page MUST NOT reload.
 - A Refresh button must be provided that allows a person to click it to get the latest stories.
 - For each story the following information must be displayed:
-	- The "section" of the newspaper the article appeared in
-	- The "title" of the article. Make the title a clickable link to the URL of the story
-	- The story "abstract"
-	- The story "byline"
-	- The "published date" in a format other than the one supplied. Take a look at moment.js reference in Canvas.
-	- One of the multimedia images for the news story.
+  - The "section" of the newspaper the article appeared in
+  - The "title" of the article. Make the title a clickable link to the URL of the story
+  - The story "abstract"
+  - The story "byline"
+  - The "published date" in a format other than the one supplied. Take a look at moment.js reference in Canvas.
+  - One of the multimedia images for the news story.
 - All of the news stories should be displayed as cards.
 - All of your JavaScript code must be in the js/nyt.js file.
 - Your page needs to be styled using the nyt.css stylesheet and look professional.
