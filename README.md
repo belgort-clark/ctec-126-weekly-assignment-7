@@ -50,7 +50,7 @@ You will need an API key in order to communicate with the API. Follow these step
 ## Assignment Details
 
 - Your page must show all of the stories returned from the API.
-- An HTML select control should be used that allows a person to select the news section they want to retrieve stories from.
+- An HTML ```<select>``` control should be used that allows a person to select the news section they want to retrieve stories from.
 - The stories should be loaded on page load.
 - When the user selects another news section, the page must reload the stories for that section. The page MUST NOT reload.
 - A Refresh button must be provided that allows a person to click it to get the latest stories.
