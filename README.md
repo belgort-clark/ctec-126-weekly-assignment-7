@@ -42,7 +42,7 @@ You will need an API key in order to communicate with the API. Follow these step
 10. You then need to select which API you intend to use. Move the toggle in the Top Stories API panel to turn it on.
 11. In the upper-right hand corner you will see the CREATE button enabled. Click on the button to create your API key.
 12. A new page will be displayed that contains information about your app. In the API Keys section, click on the icon to the right of your API key. This will copy it to the clipboard.
-13. Now save your API key somewhere will you won't lose it. You will need this key before you begin coding.
+13. Now save your API key somewhere that you won't lose it. You will need this key before you begin coding.
 14. An HTML page that includes some very simple JavaScript has been provided to help you test your key. The name of the file is test_api_key.html. Look for the place in the code to insert your API key.
 15. Test your API key. If it's not working, contact the instructor as soon as possible.
 16. Now that you have your API key and have tested it, you are ready to start coding.
@@ -52,9 +52,9 @@ You will need an API key in order to communicate with the API. Follow these step
 - Your page must show all of the stories returned from the API.
 - An HTML ```<select>``` control should be used that allows a person to select the news section they want to retrieve stories from.
 - The stories should be loaded on page load.
-- When the user selects another news section, the page must reload the stories for that section. The page MUST NOT reload.
+- When the user selects another news section, only the stories section of the page should reload. The entire page MUST NOT reload.
 - A Refresh button must be provided that allows a person to click it to get the latest stories.
-- For each story the following information must be displayed:
+- For each story, the following information must be displayed:
   - The "section" of the newspaper the article appeared in
   - The "title" of the article. Make the title a clickable link to the URL of the story
   - The story "abstract"
